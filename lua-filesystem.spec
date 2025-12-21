@@ -13,6 +13,7 @@ Group:          Development/Other
 License:        MIT
 URL:            https://www.keplerproject.org/luafilesystem/
 Source0:	https://github.com/keplerproject/luafilesystem/archive/v%{tarname}.tar.gz
+BuildRequires:	make
 BuildRequires:  lua-devel >= %{luaver}
 Requires:       lua >= %{luaver}
 

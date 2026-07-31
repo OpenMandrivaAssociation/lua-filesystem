@@ -5,8 +5,8 @@
 %define tarname	1_6_2
 
 Name:           lua-filesystem
-Version:	1.8.0
-Release:	2
+Version:	1.9.0
+Release:	1
 Summary:        FileSystem Tool for the Lua language
 
 Group:          Development/Other
@@ -22,7 +22,7 @@ LuaFileSystem offers a portable way to access the
 underlying directory structure and file attributes.
 
 %prep
-%autosetup -n %{oname}-%{tarname}
+%autosetup -n luafilesystem-1_6_2
 
 %build
 %ifarch %{ix86} znver1
